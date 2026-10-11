@@ -1,0 +1,13 @@
+# Values used in the F1TENTH gym simulator.
+pure_pursuit_node:
+  ros__parameters:
+    use_sim: true
+    lookahead_distance: 1.72
+    steering_gain: 0.435
+    max_steering: 0.4
+    max_speed: 4.5
+    min_speed: 1.5
+    waypoints_file: "levine2.csv"
+    odom_topic: "/ego_racecar/odom"
+    pose_topic: "/pf/viz/inferred_pose"
+    drive_topic: "/drive"
